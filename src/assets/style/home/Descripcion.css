@@ -1,0 +1,42 @@
+.descripcion-container{
+    height: 500px;
+    width: 100%;
+    background-color:#7209b7 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    position: relative;
+}
+
+.card-descripcion{
+    height: 200px;
+    width: 200px;
+    background-color: #ebe6e6;
+    border-radius: 10px;
+}
+
+.card-descripcion-auto{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    margin-top: -100px;
+    border-radius: 10px;
+}
+
+
+.descripcion-text{
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 60px 30px;
+}

@@ -1,0 +1,63 @@
+.portada-home{
+    height: 650px;
+    width: 100%;
+    /* background-image: url("../../img/rrrainbow.svg"); */
+    position: relative;
+    color: white;
+}
+
+.capaPortada{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /* background-color: rgba(2, 2, 2, 0.582); */
+    /* backdrop-filter: blur(1px); */
+}
+
+
+.column-portada{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    z-index: 10;
+    color: black;
+}
+
+/* .column-portada h1{
+font-size: 70px;
+} */
+
+.btn-portada button{
+    padding: 10px  50px;
+    background-color: rebeccapurple ;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.column-img-portada{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url("../../img/blob-haikei.svg");
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0
+}
+
+.column-img-portada img{
+    height: 80%;
+    width: 70%;
+    object-fit: cover;
+}
