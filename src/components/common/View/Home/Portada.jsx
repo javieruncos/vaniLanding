@@ -3,27 +3,30 @@ import Estefi from "../../../../assets/img/Estefi.png"
 const Portada = () => {
     return (
         <div className='portada-home'>
-            <div className="capaPortada">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-md-6 col-lg-6">
-                            <div className="column-portada container">
-                                <span className="display-6 fw-bold color-5">GESTION PROFESIONAL</span>
-                                <h1 className="display-5 fw-bold"> DE REDES SOCIALES</h1>
-                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum labore amet quia sapiente at sequi dolor neque reprehenderit dolorem quis?</span>
-                                <div className="btn-portada mt-2">
-                                    <button>VER MÁS</button>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-12 col-md-6 col-lg-7">
+                        <div className="portada-home-text container pt-5 px-5">
+                            <div className="pt-5">
+                                <h1 className="display-3">gestion de redes sociales profesionales</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti reiciendis consequuntur
+                                    corporis nostrum, aperiam ipsam earum consectetur vero, quo delectus quam quos rem praesentium animi
+                                    reprehenderit suscipit esse dignissimos.</p>
+                                <div>
+                                    <button className="btn-portada">Ver más</button>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6">
-                            <div className="column-img-portada">
-                             <img src={Estefi} alt="" />
-                            </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-5">
+                        <div className="portada-home-img">
+                            <img src={Estefi} alt="" />
                         </div>
                     </div>
+
                 </div>
             </div>
+
         </div>
     );
 };

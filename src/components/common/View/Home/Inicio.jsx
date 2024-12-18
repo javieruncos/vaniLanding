@@ -1,6 +1,7 @@
 import React from 'react';
 import Portada from './Portada';
-import Descripcion from './Descripcion';
+import Servicios from './Servicios';
+
 
 const Inicio = () => {
     return (
@@ -9,11 +10,11 @@ const Inicio = () => {
                 <article>
                     <Portada></Portada>
                 </article>
-                <article>
-                    <Descripcion></Descripcion>
+                <article className='container-servicios mt-5'>
+                <Servicios></Servicios>
                 </article>
             </section>
-             
+
         </main>
     );
 };

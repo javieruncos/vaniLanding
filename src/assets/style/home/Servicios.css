@@ -1,0 +1,20 @@
+/* .container-servicios{
+    background-color: aqua;
+} */
+
+.servicios-card1{
+    height: 250px;
+    width: 100%;
+    background-color: #e8f5fd;
+}
+.servicios-card2{
+    height: 250px;
+    width: 100%;
+    background-color: #fbf0fe;
+}
+.servicios-card3{
+    height: 250px;
+    width: 100%;
+    background-color: #feede8;
+}
+
