@@ -1,9 +1,13 @@
 .portada-home {
     height: 600px;
     width: 100%;
-    background-color:rgb(253, 251, 251);
     font-weight: bold;
     backdrop-filter: blur(3 px) saturate(5px);
+    align-items: center;
+    /* background-image: url("../../img/llleaves.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
 }
 
 .portada-home-text h1 {
@@ -25,18 +29,19 @@
 }
 
 .portada-home-img{
-    height: 600px;
+    height: 500px;
     width: 100%;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../img/bbburst.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color:rgb(245, 112, 185);
+    background-color:rgba(245, 112, 185, 0.158);
+    border-radius: 30px;
+  
 }
 
 .portada-home-img img{
-    height: 600px;
+    height: 500px;
     width: 400px;
 }

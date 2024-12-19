@@ -1,4 +1,4 @@
-import "../../../../assets/style/home/servicios.css";
+import "../../assets/style/home/Servicios.css";
 
 const Servicios = () => {
     return (

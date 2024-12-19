@@ -1,6 +1,7 @@
 import React from 'react';
-import Portada from './Portada';
+import "../../components/Home/Portada.jsx"
 import Servicios from './Servicios';
+import Portada from '../../components/Home/Portada.jsx';
 
 
 const Inicio = () => {
@@ -8,7 +9,7 @@ const Inicio = () => {
         <main>
             <section>
                 <article>
-                    <Portada></Portada>
+                <Portada></Portada>
                 </article>
                 <article className='container-servicios mt-5'>
                 <Servicios></Servicios>
