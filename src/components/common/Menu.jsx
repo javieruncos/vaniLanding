@@ -13,13 +13,13 @@ const Menu = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
+                        <Nav.Link href="#link">Sobre Mi</Nav.Link>
+                        <Nav.Link href="#link">Servicios</Nav.Link>
                     </Nav>
                     <div className='menu-redes'>
-                        <a href="">hola</a>
-                        <a href="">hola</a>
-                        <a href="">hola</a>
+                        <a href="">facebook</a>
+                        <a href="">insta</a>
+                        <a href="">twt</a>
                     </div>
                 </Navbar.Collapse>
             </Container>

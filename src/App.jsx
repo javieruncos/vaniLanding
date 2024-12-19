@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <div className='App'>
-        <MenuNav></MenuNav>
         <Menu></Menu>
         <Inicio></Inicio>
       </div>
