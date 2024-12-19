@@ -18,3 +18,16 @@
     background-color: #f8ddd5;
 }
 
+.servicios-img{
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-img img{
+    height: 500px;
+    width: 400px;
+}
