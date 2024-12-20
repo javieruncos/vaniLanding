@@ -1,0 +1,33 @@
+.container-contacto {
+    height: 400px;
+    width: 100%;
+    background: rgb(58, 112, 180);
+    background: linear-gradient(90deg, rgba(58, 112, 180, 0.5494572829131652) 16%, rgba(253, 29, 244, 0.165703781512605) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%);
+    color: white;
+    border-radius: 20px;
+}
+
+.container-contacto button{
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.container-contacto-img{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.container-contacto-img img{
+    height: 130%;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    transform: rotate(15deg);
+}

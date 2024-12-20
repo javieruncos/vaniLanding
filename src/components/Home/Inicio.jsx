@@ -2,6 +2,7 @@ import React from 'react';
 import "../../components/Home/Portada.jsx"
 import Servicios from './Servicios';
 import Portada from '../../components/Home/Portada.jsx';
+import ContactoPhone from './ContactoPhone.jsx';
 
 
 const Inicio = () => {
@@ -9,13 +10,15 @@ const Inicio = () => {
         <main>
             <section>
                 <article>
-                <Portada></Portada>
+                    <Portada></Portada>
                 </article>
                 <article className='container-servicios mt-5'>
-                <Servicios></Servicios>
+                    <Servicios></Servicios>
+                </article>
+                <article>
+                    <ContactoPhone></ContactoPhone>
                 </article>
             </section>
-
         </main>
     );
 };
