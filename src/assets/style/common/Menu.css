@@ -8,7 +8,9 @@
 
 .menu-redes a{
   text-decoration: none;
-  color: black;
+  background: linear-gradient(90deg, rgba(58, 113, 180, 0.562) 16%, rgba(253, 29, 245, 0.185) 51%, rgba(137, 137, 231, 0.17) 100%);
+  background-clip: text; /* Aplica el gradiente al texto */
+  -webkit-text-fill-color: transparent; /* Hace el texto transparente para mostrar el gradiente */
 }
 
 

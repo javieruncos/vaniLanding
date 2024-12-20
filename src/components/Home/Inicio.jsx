@@ -15,7 +15,7 @@ const Inicio = () => {
                 <article className='container-servicios mt-5'>
                     <Servicios></Servicios>
                 </article>
-                <article>
+                <article className='pt-4'>
                     <ContactoPhone></ContactoPhone>
                 </article>
             </section>

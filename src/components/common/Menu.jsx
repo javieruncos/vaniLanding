@@ -17,9 +17,15 @@ const Menu = () => {
                         <Nav.Link href="#link">Servicios</Nav.Link>
                     </Nav>
                     <div className='menu-redes'>
-                        <a href="">facebook</a>
-                        <a href="">insta</a>
-                        <a href="">twt</a>
+                        <a href="">
+                            <i class="bi bi-facebook fs-3"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-instagram fs-3"></i>
+                        </a>
+                        <a href="">
+                        <i class="bi bi-tiktok fs-3"></i>
+                        </a>
                     </div>
                 </Navbar.Collapse>
             </Container>
