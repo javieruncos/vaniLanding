@@ -2,34 +2,86 @@
     background-color: aqua;
 } */
 
-.servicios-card1{
+.servicios-card1 {
     height: 250px;
     width: 100%;
     background-color: #daeffc;
 }
 
-.servicios-card2{
+.servicios-card2 {
     height: 250px;
     width: 100%;
     background-color: #f9e4ff;
 }
 
-.servicios-card3{
+.servicios-card3 {
     height: 250px;
     width: 100%;
     background-color: #f8ddd5;
 }
 
-.servicios-img{
-    height: 500px;
+
+.servicios-card-icon{
+    height: 100px;
     width: 100%;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.servicios-img img{
+.servicios-card-icon i{
+    font-size: 70px;
+    color: white;
+}
+
+.servicios-img {
+    height: 500px;
+    width: 100%;
+    background: rgb(58, 112, 180);
+    background: linear-gradient(90deg, rgba(58, 112, 180, 0.5494572829131652) 16%, rgba(253, 29, 244, 0.165703781512605) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.servicios-img img {
     height: 500px;
     width: 400px;
+}
+
+.item-servicios {
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.item-servicios div:first-child{
+    height: 100px;
+    width: 100px;
+    background: rgb(58, 112, 180);
+    background: linear-gradient(90deg, rgba(58, 113, 180, 0.315) 16%, rgba(248, 197, 246, 0.527) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #19191983;
+    
+}
+
+.item-servicios div:last-child{
+    height: 100px;
+    width: 75%;
+}
+
+.item-servicios div p{
+    color:grey;
 }

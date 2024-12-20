@@ -23,7 +23,11 @@ const Portada = () => {
                                 <img src={Estefi} alt="" />
                             </div>
                             <div className="item-portada-info">
-                                <div></div>
+                                <div className="container">
+                                    <div className="py-2">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className="item-portada-instagram">
                                 <div className="avatar-instagram">

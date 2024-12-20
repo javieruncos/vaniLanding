@@ -72,6 +72,7 @@
     width: 90%;
     background-color: white;
     border-radius: 10px;
+    color: grey;
 }
 
 
@@ -92,12 +93,13 @@
 .avatar-instagram {
     height: 60px;
     width: 60px;
-    background-color: whitesmoke;
+    background-color: rgba(201, 200, 200, 0.596);
     border-radius: 50%;
     margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.082);
 }
 
 .avatar-instagram img {
@@ -112,5 +114,5 @@
     display: flex;
     align-items: center;
     font-size: 25px;
-    color: black;
+    color: grey;
 }
