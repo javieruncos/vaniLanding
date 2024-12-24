@@ -1,0 +1,36 @@
+.container-accordion{
+    height: auto;
+}
+
+
+.item-accordion{
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 20px;
+    border: none;
+}
+
+.item-accordion button{
+    height: 70px;
+    border-top: 0.5px solid grey;
+    border-radius: 5px 5px;
+    border-bottom: 1px;
+    background: rgb(58, 112, 180);
+    background: linear-gradient(90deg, rgba(58, 113, 180, 0.267) 16%, rgba(253, 29, 244, 0.165703781512605) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%);
+   color: black;
+   border: none
+}
+
+
+.item-accordion button:focus{
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.accordion-body{
+    /* background: rgb(58, 112, 180);
+    background: linear-gradient(90deg, rgba(58, 113, 180, 0.267) 16%, rgba(253, 29, 244, 0.165703781512605) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%); */
+    color:black;
+    background-color: rgba(128, 128, 128, 0.055);
+    background-color: whitesmoke;
+}

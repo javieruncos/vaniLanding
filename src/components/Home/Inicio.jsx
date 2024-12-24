@@ -3,6 +3,7 @@ import "../../components/Home/Portada.jsx"
 import Servicios from './Servicios';
 import Portada from '../../components/Home/Portada.jsx';
 import ContactoPhone from './ContactoPhone.jsx';
+import Preguntas from './Preguntas.jsx';
 
 
 const Inicio = () => {
@@ -17,6 +18,9 @@ const Inicio = () => {
                 </article>
                 <article className='pt-4'>
                     <ContactoPhone></ContactoPhone>
+                </article>
+                <article>
+                    <Preguntas></Preguntas>
                 </article>
             </section>
         </main>
