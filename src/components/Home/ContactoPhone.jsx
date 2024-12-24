@@ -1,5 +1,6 @@
 import "../../assets/style/home/Contacto.css"
 import celular from "../../assets/img/vaninaInst.png"
+import capaEmoji from "../../assets/img/capa-emoji.svg"
 
 const ContactoPhone = () => {
     return (
@@ -17,6 +18,9 @@ const ContactoPhone = () => {
                             <img src={celular} alt="" />
                          </div>
                     </div>
+                </div>
+                <div className="capa-emoji">
+                    <img src={capaEmoji} alt="" />
                 </div>
             </div>
         </div>

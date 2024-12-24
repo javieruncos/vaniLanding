@@ -5,6 +5,8 @@
     background: linear-gradient(90deg, rgba(58, 112, 180, 0.5494572829131652) 16%, rgba(253, 29, 244, 0.165703781512605) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%);
     color: white;
     border-radius: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .container-contacto button{
@@ -22,6 +24,7 @@
     align-items: center;
     padding-top: 20px;
     position: relative;
+    z-index: 1;
 }
 
 .container-contacto-img img{
@@ -31,4 +34,11 @@
     top: 50px;
     right:120px;
     transform: rotate(17deg);
+}
+
+.capa-emoji{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
