@@ -6,18 +6,21 @@
     height: 250px;
     width: 100%;
     background-color: #daeffc;
+    box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
 }
 
 .servicios-card2 {
     height: 250px;
     width: 100%;
     background-color: #f9e4ff;
+    box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
 }
 
 .servicios-card3 {
     height: 250px;
     width: 100%;
     background-color: #f8ddd5;
+    box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
 }
 
 
@@ -43,11 +46,28 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
+}
+
+.servicios-img::after{
+    content: "";
+    height: 500px;
+    width: 100%;
+    background-image: url("../../img/capa-emoji.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    
 }
 
 .servicios-img img {
     height: 500px;
     width: 400px;
+    z-index: 2;
 }
 
 .item-servicios {
@@ -61,6 +81,7 @@
     justify-content: space-between;
     gap: 20px;
     padding: 0px 20px;
+    box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
 }
 
 .item-servicios div:first-child{
