@@ -6,9 +6,9 @@ const Portada = () => {
             <div className="container portada-container">
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-7">
-                        <div className="portada-home-text container pt-5 px-5" data-aos="fade-down">
+                        <div className="portada-home-text container pt-5 px-5" data-aos="fade-up">
                             <div className="pt-5">
-                                <h1 className="display-2" >gestion de redes  profesionales</h1>
+                                <h1 className="display-3" >gestion de redes  profesionales</h1>
                                 <div className="w-75">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti reiciendis consequuntur
                                         corporis nostrum, 

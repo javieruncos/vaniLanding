@@ -4,12 +4,12 @@ const Servicios = () => {
     return (
         <section>
             <div className="servicios container d-flex justify-content-center pt-5">
-                <div className="w-75 text-center " data-aos="fade-down" >
+                <div className="w-75 text-center " data-aos="fade-up" >
                     <h2 className="fw-bold display-6">TAKE ADVENTAGE OF THE ENTIRE AUDIO PLATAFORM</h2>
                 </div>
             </div>
             <div className="container my-5">
-                <div className="row" data-aos="fade-down">
+                <div className="row" data-aos="fade-up">
                     <div className="col-12 col-md-4">
                         <div className="servicios-card1">
                             <div className="servicios-card-icon">

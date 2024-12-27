@@ -49,8 +49,8 @@
     width: 350px;
     position: absolute;
     top: 50px;
-    right: 130px;
-    transform: rotate(15deg);
+    right: 100px;
+    filter: drop-shadow(10px 22px 10px  rgba(0, 0, 0, 0.493));
 }
 
 .btn-Phone{
