@@ -1,0 +1,70 @@
+.container-phone{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(58, 112, 180);
+    background: linear-gradient(90deg, rgba(58, 112, 180, 0.5494572829131652) 16%, rgba(253, 29, 244, 0.165703781512605) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%);
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
+    color: #191919;
+}
+
+.container-phone::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../img/capa-emoji.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.info-phone{
+    height: 100px;
+    width: 80%;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    color: grey;
+    box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
+    
+}
+
+.phone-img{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.phone-img img{
+    height: 600px;
+    width: 350px;
+    position: absolute;
+    top: 50px;
+    right: 130px;
+    transform: rotate(15deg);
+}
+
+.btn-Phone{
+    padding: 10px 50px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color:black;
+    font-weight: bold;
+}
+
+.btn-Phone:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+   
+}
