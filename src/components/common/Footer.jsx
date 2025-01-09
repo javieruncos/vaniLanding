@@ -15,13 +15,13 @@ const Footer = () => {
                 </div>
                 <div className="d-flex gap-4">
                     <span>
-                    <i class="bi bi-facebook"></i>
+                        <i class="bi bi-facebook"></i>
                     </span>
                     <span>
-                    <i class="bi bi-instagram"></i>
+                        <i class="bi bi-instagram"></i>
                     </span>
                     <span>
-                    <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-twitter-x"></i>
                     </span>
                 </div>
             </div>
