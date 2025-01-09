@@ -1,0 +1,20 @@
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: rgba(102, 51, 153, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.container-links-footer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

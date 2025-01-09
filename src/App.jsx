@@ -6,6 +6,7 @@ import Menu from './components/common/Menu.jsx'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Footer from './components/common/Footer.jsx'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <div className='App'>
         <Menu></Menu>
         <Inicio></Inicio>
+        <Footer></Footer>
       </div>
     </>
   )
