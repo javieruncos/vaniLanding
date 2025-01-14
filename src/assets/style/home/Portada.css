@@ -129,3 +129,88 @@
     font-size: 25px;
     color: grey;
 }
+
+
+@media screen  and (max-width: 599px) {
+
+    .portada-container{
+        height: 825px;
+    }
+
+    .portada-home{
+        text-align: center;
+        height: auto;
+    }
+
+    .portada-home-text{
+        height: 400px;
+    }
+
+    .portada-home-img{
+        height: 450px;
+    }
+
+    .portada-home-img img {
+        height: 400px;
+        width: 300px;
+    }
+
+    .item-portada-info {
+        display: none;
+    }
+
+    .item-portada-instagram{
+        display: none;
+    }
+
+    .btn-portada {
+        padding: 15px 63px;
+        margin-top: 20px;
+        background-color: white;
+        border: none;
+        color: black;
+        border-radius: 10px;
+    }
+}
+
+
+ @media  screen and (max-width: 365px) {
+    .portada-container{
+        height: 840px;
+    }
+
+    .portada-home{
+        text-align: center;
+    }
+
+    .portada-home-text{
+        height: 400px;
+    }
+
+    .portada-home-img{
+        height: 450px;
+    }
+
+    .portada-home-img img {
+        height: 350px;
+        width: 300px;
+        margin-top: 80px;
+    }
+
+    .item-portada-info {
+        display: none;
+    }
+
+    .item-portada-instagram{
+        display: none;
+    }
+
+    .btn-portada {
+        padding: 15px 63px;
+        margin-top: 20px;
+        background-color: white;
+        border: none;
+        color: black;
+        border-radius: 10px;
+    }
+ }

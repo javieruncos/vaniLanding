@@ -11,18 +11,18 @@ const Inicio = () => {
     return (
         <main>
             <section>
-                <article>
+                <article className='mb-5'>
                     <Portada></Portada>
                 </article>
                 <article className='container-servicios mt-5'>
                     <Servicios></Servicios>
                 </article>
-                <article className='py-5'>
+                {/* <article className='py-5'>
                     <Phone></Phone>
-                </article>
-                <article>
+                </article> */}
+                {/* <article>
                     <Preguntas></Preguntas>
-                </article>
+                </article> */}
             </section>
         </main>
     );
