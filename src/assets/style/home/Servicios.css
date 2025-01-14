@@ -5,15 +5,22 @@
 .servicios-card1 {
     height: 250px;
     width: 100%;
-    background-color: #daeffc;
+    /* background-color: #daeffc; */
+    background-color: #c7e5f8;
     box-shadow: 10px 12px 10px 1px rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
 }
 
 .servicios-card2 {
     height: 250px;
     width: 100%;
-    background-color: #f9e4ff;
+    /* background-color: #f9e4ff; */
+    background-color: #e89ffc;
     box-shadow: 10px 12px 10px 1px rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .servicios-card3 {
@@ -21,6 +28,9 @@
     width: 100%;
     background-color: #f8ddd5;
     box-shadow: 10px 12px 10px 1px rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
 }
 
 
@@ -40,8 +50,11 @@
 .servicios-img {
     height: 500px;
     width: 100%;
-    background: rgb(58, 112, 180);
+    /* background: rgb(58, 112, 180);
     background: linear-gradient(90deg, rgba(58, 112, 180, 0.5494572829131652) 16%, rgba(253, 29, 244, 0.165703781512605) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%);
+     */
+    background: rgb(58, 112, 180);
+    background: linear-gradient(90deg, rgba(156, 197, 247, 0.993) 6%, rgba(253, 29, 245, 0.699) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,8 +152,8 @@
     }
 
     .item-servicios div:first-child {
-        height: 70px;
-        width: 70px;
+        height: 40px;
+        width: 50px;
         font-size: 40px;
 
     }
@@ -159,7 +172,7 @@
         font-size: 14px;
     }
 
-   
+
 }
 
 
@@ -192,8 +205,15 @@
         font-size: 18px;
     }
 
-    .item-servicios p{
+    .item-servicios p {
         font-size: 12px;
+    }
+
+    .item-servicios div:first-child {
+        height: 60px;
+        width: 60px;
+        font-size: 40px;
+
     }
 
 }

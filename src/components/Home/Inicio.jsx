@@ -17,12 +17,12 @@ const Inicio = () => {
                 <article className='container-servicios mt-5'>
                     <Servicios></Servicios>
                 </article>
-                {/* <article className='py-5'>
+                <article className='py-5 container'>
                     <Phone></Phone>
-                </article> */}
-                {/* <article>
+                </article>
+                <article>
                     <Preguntas></Preguntas>
-                </article> */}
+                </article>
             </section>
         </main>
     );

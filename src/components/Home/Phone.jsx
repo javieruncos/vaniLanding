@@ -7,8 +7,8 @@ const Phone = () => {
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-7">
                     <div className="container pt-5 mt-4 px-5">
-                        <div className="container" data-aos="fade-up">
-                            <h3 className="display-5  fw-bold">Ponte en contacto conmigo</h3>
+                        <div className=" titulo-contacto" data-aos="fade-up">
+                            <h3 className=" fw-bold">Contactame</h3>
                         </div>
                         <div className="info-phone my-3  py-3 px-4 " data-aos="fade-right">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iure eum minima possimus natus expedita facilis? Optio est praesentium in.</p>
