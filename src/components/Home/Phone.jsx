@@ -1,9 +1,10 @@
 import "../../assets/style/home/Phone.css";
 import celular from "../../assets/img/vaninaInst.png"
+import vaniPhone from "../../assets/img/vani-Phone2.png"
 
 const Phone = () => {
     return (
-        <div className='container-phone container'>
+        <div className='container-phone container' data-aos="fade-up">
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-7">
                     <div className="container pt-5 mt-4 px-5">
@@ -21,7 +22,7 @@ const Phone = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-5">
                     <div className="phone-img container"  data-aos="fade-left">
-                        <img src={celular} alt=""></img>
+                        <img src={vaniPhone} alt=""></img>
                     </div>
                 </div>
 

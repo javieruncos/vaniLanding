@@ -9,6 +9,7 @@
     z-index: 1;
     box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
     color: #191919;
+    overflow: hidden;
 }
 
 .container-phone::before{
@@ -50,7 +51,7 @@
 
 .phone-img img{
     height: 600px;
-    width: 350px;
+    width: 300px;
     position: absolute;
     top: 50px;
     right: 100px;
@@ -75,7 +76,7 @@
 
 @media screen and (max-width: 365px) {
     .phone-img img{
-        height: 600px;
+        height: 400px;
         width: 350px;
         position: absolute;
         top: 50px;
@@ -127,10 +128,10 @@
     }
 
     .phone-img img{
-        height: 600px;
-        width: 350px;
+        height: 500px;
+        width: 250px;
         position: relative;
-        top: 50px;
+        top: 10px;
         right: 0px;
         filter: drop-shadow(10px 22px 10px  rgba(0, 0, 0, 0.493));
     }

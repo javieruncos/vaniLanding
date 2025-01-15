@@ -1,4 +1,9 @@
-
+.menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
 .menu-redes{
   width: 150px;
@@ -6,11 +11,11 @@
   justify-content: space-around;
 }
 
+
+
 .menu-redes a{
   text-decoration: none;
-  background: linear-gradient(90deg, rgba(58, 113, 180, 0.562) 16%, rgba(253, 29, 245, 0.185) 51%, rgba(137, 137, 231, 0.17) 100%);
-  background-clip: text; /* Aplica el gradiente al texto */
-  -webkit-text-fill-color: transparent; /* Hace el texto transparente para mostrar el gradiente */
+  color: rebeccapurple;
 }
 
 
@@ -51,18 +56,25 @@
     justify-content: flex-end;
 }
 
-.container-menu-redes a{
-    text-decoration: none;
-    color:white;
-}
+
 
 @media screen and (max-width: 599px) {
+    .menu{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: red;
+        color: white !important;
+    }
     .menuNav{
         display: none;
+        color: white !important;
     }
 
     .bg-body-tertiary{
         display: block;
+        color: rgb(235, 234, 234) !important;
     }
 
     .menu-redes{

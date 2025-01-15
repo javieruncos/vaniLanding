@@ -6,6 +6,7 @@
     align-items: center;
     color: white;
     position: relative;
+    margin-top: 90px;
 }
 
 .portada-home::before {
@@ -135,8 +136,21 @@
 
 @media screen  and (max-width: 599px) {
 
+    .portada-home {
+        height: 500px;
+        width: 100%;
+        font-weight: bold;
+        backdrop-filter: blur(3 px) saturate(5px);
+        align-items: center;
+        color: white;
+        position: relative;
+        margin-top: 0px;
+    }
+
     .portada-container{
         height: 525px;
+        border-radius: 0px;
+        margin-top: 0px;
     }
 
     .portada-home{

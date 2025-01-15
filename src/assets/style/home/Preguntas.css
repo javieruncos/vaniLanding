@@ -1,5 +1,6 @@
 .container-accordion{
     height: auto;
+    overflow: hidden;
 }
 
 
@@ -16,9 +17,11 @@
     border-top: 0.5px solid grey;
     border-radius: 5px 5px;
     border-bottom: 1px;
-    background: rgb(58, 112, 180);
+    /* background: rgba(58, 113, 180, 0.24);
     background: linear-gradient(90deg, rgba(58, 113, 180, 0.267) 16%, rgba(253, 29, 244, 0.165703781512605) 51%, rgba(137, 137, 231, 0.16850490196078427) 100%);
-   color: black;
+    background-color: rgb(245, 243, 243); */
+    background-color: rgb(102, 51, 153);
+   color: white;
    border: none;
    box-shadow:  10px 12px 10px 1px rgba(0, 0, 0, 0.158);
 }
@@ -26,7 +29,8 @@
 
 .item-accordion button:focus{
     box-shadow: none;
-    background-color: transparent;
+    background-color: rebeccapurple;
+    color: white;
 }
 
 .accordion-body{

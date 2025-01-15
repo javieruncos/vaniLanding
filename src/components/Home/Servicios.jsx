@@ -68,26 +68,28 @@ const Servicios = () => {
                                     delectus inventore illum eveniet tempore magnam sed est veniam animi! Et, dolorem corrupti dolor
                                 </p>
                             </div>
-                            <div className="item-servicios  my-4" data-aos="fade-left">
-                                <div className="icon-item-servicio">
-                                    <span>
-                                        <i class="bi bi-eye"></i>
-                                    </span>
+                            <div className="servicios-items">
+                                <div className="item-servicios  my-4" data-aos="fade-left">
+                                    <div className="icon-item-servicio">
+                                        <span>
+                                            <i class="bi bi-eye"></i>
+                                        </span>
+                                    </div>
+                                    <div className="px-3 py-2">
+                                        <h4>titulo de contenido</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
-                                <div className="px-3 py-2">
-                                    <h4>titulo de contenido</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                            <div className="item-servicios" data-aos="fade-left">
-                                <div>
-                                    <span>
-                                        <i class="bi bi-eye"></i>
-                                    </span>
-                                </div>
-                                <div className="px-3 py-2">
-                                    <h4>titulo de contenido</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div className="item-servicios" data-aos="fade-left">
+                                    <div>
+                                        <span>
+                                            <i class="bi bi-eye"></i>
+                                        </span>
+                                    </div>
+                                    <div className="px-3 py-2">
+                                        <h4>titulo de contenido</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

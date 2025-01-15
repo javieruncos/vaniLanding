@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Menu = () => {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body-tertiary menu">
             <Container className='container-menu'>
                 <Navbar.Brand href="#home" className='name-menu'>React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
