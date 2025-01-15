@@ -1,6 +1,5 @@
 import "../../assets/style/home/Phone.css";
-import celular from "../../assets/img/vaninaInst.png"
-import vaniPhone from "../../assets/img/vani-Phone2.png"
+import vaniPhone from "../../assets/img/vani-phone2.png";
 
 const Phone = () => {
     return (
